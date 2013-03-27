@@ -23,17 +23,6 @@ typedef void(^RistrettoDidSelectCellBlock)(RistrettoTableViewController *vc, UIT
 
 - (void)setTableHeaderView:(UIView *)view insets:(UIEdgeInsets)insets;
 
-+ (UINavigationController *)navigationControllerWithRootViewController:(UIViewController *)viewController;
-
-@end
-
-
-@interface RistrettoSampleDescriptor : NSObject
-@property (nonatomic, copy) NSString *className;
-@property (nonatomic, copy) NSString *title;
-@property (nonatomic, retain) id instance;
-
-+ (RistrettoSampleDescriptor *)descriptorWithTitle:(NSString *)title className:(NSString *)className;
-+ (RistrettoSampleDescriptor *)descriptorWithTitle:(NSString *)title instance:(id)instance;
+//+ (UINavigationController *)navigationControllerWithRootViewController:(UIViewController *)viewController;
 
 @end

@@ -12,6 +12,7 @@
 #import "UIColor+Ristretto.h"
 #import "UIImage+Ristretto.h"
 #import "UIFont+Ristretto.h"
+#import "RistrettoSampleDescriptor.h"
 
 @interface RistrettoTableViewController ()
 @property (nonatomic, readwrite, retain) id tableHeaderView;
@@ -105,48 +106,19 @@
     self.tableView.tableHeaderView = containerView;
 }
 
-+ (UINavigationController *)navigationControllerWithRootViewController:(UIViewController *)viewController
-{
-    UINavigationController *nc = [[[UINavigationController alloc] initWithRootViewController:viewController] autorelease];
-    
-    //
-    [nc.navigationBar setBackgroundImage:[UIImage Ristretto_navigationBarBackgroundImage] forBarMetrics:UIBarMetricsDefault];
-    [nc.navigationBar setShadowImage:[[[UIImage alloc] init] autorelease]];
-    NSDictionary *titleAttributes = @{UITextAttributeTextColor : [UIColor Ristretto_redColor],
-                                      UITextAttributeTextShadowColor : [UIColor clearColor],
-                                      UITextAttributeFont : [UIFont Ristretto_lightFontOfSize:22]};
-    [nc.navigationBar setTitleTextAttributes:titleAttributes];
-    
-    return nc;
-}
-
-@end
-
-
-@implementation RistrettoSampleDescriptor
-
-- (void)dealloc
-{
-    self.instance = nil;
-    self.title = nil;
-    self.className = nil;
-    [super dealloc];
-}
-
-+ (RistrettoSampleDescriptor *)descriptorWithTitle:(NSString *)title className:(NSString *)className
-{
-    RistrettoSampleDescriptor *toReturn = [[[RistrettoSampleDescriptor alloc] init] autorelease];
-    toReturn.title = title;
-    toReturn.className = className;
-    return toReturn;
-}
-
-+ (RistrettoSampleDescriptor *)descriptorWithTitle:(NSString *)title instance:(id)instance
-{
-    RistrettoSampleDescriptor *toReturn = [[[RistrettoSampleDescriptor alloc] init] autorelease];
-    toReturn.title = title;
-    toReturn.instance = instance;
-    return toReturn;
-}
+//+ (UINavigationController *)navigationControllerWithRootViewController:(UIViewController *)viewController
+//{
+//    UINavigationController *nc = [[[UINavigationController alloc] initWithRootViewController:viewController] autorelease];
+//    
+//    //
+//    [nc.navigationBar setBackgroundImage:[UIImage Ristretto_navigationBarBackgroundImage] forBarMetrics:UIBarMetricsDefault];
+//    [nc.navigationBar setShadowImage:[[[UIImage alloc] init] autorelease]];
+//    NSDictionary *titleAttributes = @{UITextAttributeTextColor : [UIColor Ristretto_redColor],
+//                                      UITextAttributeTextShadowColor : [UIColor clearColor],
+//                                      UITextAttributeFont : [UIFont Ristretto_lightFontOfSize:22]};
+//    [nc.navigationBar setTitleTextAttributes:titleAttributes];
+//    
+//    return nc;
+//}
 
 @end
