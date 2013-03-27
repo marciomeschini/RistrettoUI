@@ -19,6 +19,9 @@
 		A99CC572170350BE0070FF13 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99CC571170350BE0070FF13 /* QuartzCore.framework */; };
 		A99CC574170350C40070FF13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99CC573170350C40070FF13 /* CoreGraphics.framework */; };
 		A99CC576170350CE0070FF13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99CC575170350CE0070FF13 /* UIKit.framework */; };
+		A99CC58C17036AC20070FF13 /* RistrettoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A99CC58B17036AC20070FF13 /* RistrettoViewController.m */; };
+		A99CC58F17036B1A0070FF13 /* RistrettoSampleDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = A99CC58E17036B1A0070FF13 /* RistrettoSampleDescriptor.m */; };
+		A99CC59217036B690070FF13 /* UINavigationController+Ristretto.m in Sources */ = {isa = PBXBuildFile; fileRef = A99CC59117036B690070FF13 /* UINavigationController+Ristretto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,6 +59,12 @@
 		A99CC571170350BE0070FF13 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A99CC573170350C40070FF13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A99CC575170350CE0070FF13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A99CC58A17036AC20070FF13 /* RistrettoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RistrettoViewController.h; sourceTree = "<group>"; };
+		A99CC58B17036AC20070FF13 /* RistrettoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RistrettoViewController.m; sourceTree = "<group>"; };
+		A99CC58D17036B1A0070FF13 /* RistrettoSampleDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RistrettoSampleDescriptor.h; sourceTree = "<group>"; };
+		A99CC58E17036B1A0070FF13 /* RistrettoSampleDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RistrettoSampleDescriptor.m; sourceTree = "<group>"; };
+		A99CC59017036B690070FF13 /* UINavigationController+Ristretto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Ristretto.h"; sourceTree = "<group>"; };
+		A99CC59117036B690070FF13 /* UINavigationController+Ristretto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Ristretto.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +136,12 @@
 			children = (
 				A99CC55A17034FC00070FF13 /* RistrettoTableViewCell.h */,
 				A99CC55B17034FC00070FF13 /* RistrettoTableViewCell.m */,
+				A99CC58A17036AC20070FF13 /* RistrettoViewController.h */,
+				A99CC58B17036AC20070FF13 /* RistrettoViewController.m */,
 				A99CC55C17034FC00070FF13 /* RistrettoTableViewController.h */,
 				A99CC55D17034FC00070FF13 /* RistrettoTableViewController.m */,
+				A99CC58D17036B1A0070FF13 /* RistrettoSampleDescriptor.h */,
+				A99CC58E17036B1A0070FF13 /* RistrettoSampleDescriptor.m */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -144,6 +157,8 @@
 				A99CC56717034FE20070FF13 /* UIImage+Ristretto.m */,
 				A99CC56817034FE20070FF13 /* UIViewController+Ristretto.h */,
 				A99CC56917034FE20070FF13 /* UIViewController+Ristretto.m */,
+				A99CC59017036B690070FF13 /* UINavigationController+Ristretto.h */,
+				A99CC59117036B690070FF13 /* UINavigationController+Ristretto.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -206,6 +221,9 @@
 				A99CC56C17034FE20070FF13 /* UIImage+FWTBlock.m in Sources */,
 				A99CC56D17034FE20070FF13 /* UIImage+Ristretto.m in Sources */,
 				A99CC56E17034FE20070FF13 /* UIViewController+Ristretto.m in Sources */,
+				A99CC58C17036AC20070FF13 /* RistrettoViewController.m in Sources */,
+				A99CC58F17036B1A0070FF13 /* RistrettoSampleDescriptor.m in Sources */,
+				A99CC59217036B690070FF13 /* UINavigationController+Ristretto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +324,7 @@
 				A99CC55917034FA40070FF13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
