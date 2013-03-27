@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A99CC54D17034FA40070FF13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99CC54C17034FA40070FF13 /* Foundation.framework */; };
+		A99CC55217034FA40070FF13 /* RistrettoUI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A99CC55117034FA40070FF13 /* RistrettoUI.h */; };
+		A99CC55E17034FC00070FF13 /* RistrettoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A99CC55B17034FC00070FF13 /* RistrettoTableViewCell.m */; };
+		A99CC55F17034FC00070FF13 /* RistrettoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A99CC55D17034FC00070FF13 /* RistrettoTableViewController.m */; };
+		A99CC56A17034FE20070FF13 /* UIColor+Ristretto.m in Sources */ = {isa = PBXBuildFile; fileRef = A99CC56117034FE10070FF13 /* UIColor+Ristretto.m */; };
+		A99CC56B17034FE20070FF13 /* UIFont+Ristretto.m in Sources */ = {isa = PBXBuildFile; fileRef = A99CC56317034FE10070FF13 /* UIFont+Ristretto.m */; };
+		A99CC56C17034FE20070FF13 /* UIImage+FWTBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A99CC56517034FE20070FF13 /* UIImage+FWTBlock.m */; };
+		A99CC56D17034FE20070FF13 /* UIImage+Ristretto.m in Sources */ = {isa = PBXBuildFile; fileRef = A99CC56717034FE20070FF13 /* UIImage+Ristretto.m */; };
+		A99CC56E17034FE20070FF13 /* UIViewController+Ristretto.m in Sources */ = {isa = PBXBuildFile; fileRef = A99CC56917034FE20070FF13 /* UIViewController+Ristretto.m */; };
+		A99CC572170350BE0070FF13 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99CC571170350BE0070FF13 /* QuartzCore.framework */; };
+		A99CC574170350C40070FF13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99CC573170350C40070FF13 /* CoreGraphics.framework */; };
+		A99CC576170350CE0070FF13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99CC575170350CE0070FF13 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A99CC54717034FA40070FF13 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				A99CC55217034FA40070FF13 /* RistrettoUI.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A99CC54917034FA40070FF13 /* libRistrettoUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRistrettoUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99CC54C17034FA40070FF13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A99CC55017034FA40070FF13 /* RistrettoUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RistrettoUI-Prefix.pch"; sourceTree = "<group>"; };
+		A99CC55117034FA40070FF13 /* RistrettoUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RistrettoUI.h; sourceTree = "<group>"; };
+		A99CC55A17034FC00070FF13 /* RistrettoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RistrettoTableViewCell.h; sourceTree = "<group>"; };
+		A99CC55B17034FC00070FF13 /* RistrettoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RistrettoTableViewCell.m; sourceTree = "<group>"; };
+		A99CC55C17034FC00070FF13 /* RistrettoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RistrettoTableViewController.h; sourceTree = "<group>"; };
+		A99CC55D17034FC00070FF13 /* RistrettoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RistrettoTableViewController.m; sourceTree = "<group>"; };
+		A99CC56017034FE10070FF13 /* UIColor+Ristretto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Ristretto.h"; sourceTree = "<group>"; };
+		A99CC56117034FE10070FF13 /* UIColor+Ristretto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Ristretto.m"; sourceTree = "<group>"; };
+		A99CC56217034FE10070FF13 /* UIFont+Ristretto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Ristretto.h"; sourceTree = "<group>"; };
+		A99CC56317034FE10070FF13 /* UIFont+Ristretto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Ristretto.m"; sourceTree = "<group>"; };
+		A99CC56417034FE20070FF13 /* UIImage+FWTBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FWTBlock.h"; sourceTree = "<group>"; };
+		A99CC56517034FE20070FF13 /* UIImage+FWTBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FWTBlock.m"; sourceTree = "<group>"; };
+		A99CC56617034FE20070FF13 /* UIImage+Ristretto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Ristretto.h"; sourceTree = "<group>"; };
+		A99CC56717034FE20070FF13 /* UIImage+Ristretto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Ristretto.m"; sourceTree = "<group>"; };
+		A99CC56817034FE20070FF13 /* UIViewController+Ristretto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Ristretto.h"; sourceTree = "<group>"; };
+		A99CC56917034FE20070FF13 /* UIViewController+Ristretto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Ristretto.m"; sourceTree = "<group>"; };
+		A99CC571170350BE0070FF13 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A99CC573170350C40070FF13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A99CC575170350CE0070FF13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A99CC54617034FA40070FF13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99CC576170350CE0070FF13 /* UIKit.framework in Frameworks */,
+				A99CC574170350C40070FF13 /* CoreGraphics.framework in Frameworks */,
+				A99CC572170350BE0070FF13 /* QuartzCore.framework in Frameworks */,
+				A99CC54D17034FA40070FF13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A99CC54017034FA40070FF13 = {
+			isa = PBXGroup;
+			children = (
+				A99CC54E17034FA40070FF13 /* RistrettoUI */,
+				A99CC54B17034FA40070FF13 /* Frameworks */,
+				A99CC54A17034FA40070FF13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A99CC54A17034FA40070FF13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A99CC54917034FA40070FF13 /* libRistrettoUI.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A99CC54B17034FA40070FF13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A99CC575170350CE0070FF13 /* UIKit.framework */,
+				A99CC573170350C40070FF13 /* CoreGraphics.framework */,
+				A99CC571170350BE0070FF13 /* QuartzCore.framework */,
+				A99CC54C17034FA40070FF13 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A99CC54E17034FA40070FF13 /* RistrettoUI */ = {
+			isa = PBXGroup;
+			children = (
+				A99CC56417034FE20070FF13 /* UIImage+FWTBlock.h */,
+				A99CC56517034FE20070FF13 /* UIImage+FWTBlock.m */,
+				A99CC56F17034FED0070FF13 /* Base */,
+				A99CC57017034FF80070FF13 /* Categories */,
+				A99CC55117034FA40070FF13 /* RistrettoUI.h */,
+				A99CC54F17034FA40070FF13 /* Supporting Files */,
+			);
+			path = RistrettoUI;
+			sourceTree = "<group>";
+		};
+		A99CC54F17034FA40070FF13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A99CC55017034FA40070FF13 /* RistrettoUI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A99CC56F17034FED0070FF13 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A99CC55A17034FC00070FF13 /* RistrettoTableViewCell.h */,
+				A99CC55B17034FC00070FF13 /* RistrettoTableViewCell.m */,
+				A99CC55C17034FC00070FF13 /* RistrettoTableViewController.h */,
+				A99CC55D17034FC00070FF13 /* RistrettoTableViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		A99CC57017034FF80070FF13 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A99CC56017034FE10070FF13 /* UIColor+Ristretto.h */,
+				A99CC56117034FE10070FF13 /* UIColor+Ristretto.m */,
+				A99CC56217034FE10070FF13 /* UIFont+Ristretto.h */,
+				A99CC56317034FE10070FF13 /* UIFont+Ristretto.m */,
+				A99CC56617034FE20070FF13 /* UIImage+Ristretto.h */,
+				A99CC56717034FE20070FF13 /* UIImage+Ristretto.m */,
+				A99CC56817034FE20070FF13 /* UIViewController+Ristretto.h */,
+				A99CC56917034FE20070FF13 /* UIViewController+Ristretto.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A99CC54817034FA40070FF13 /* RistrettoUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99CC55717034FA40070FF13 /* Build configuration list for PBXNativeTarget "RistrettoUI" */;
+			buildPhases = (
+				A99CC54517034FA40070FF13 /* Sources */,
+				A99CC54617034FA40070FF13 /* Frameworks */,
+				A99CC54717034FA40070FF13 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RistrettoUI;
+			productName = RistrettoUI;
+			productReference = A99CC54917034FA40070FF13 /* libRistrettoUI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A99CC54117034FA40070FF13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Marco Meschini";
+			};
+			buildConfigurationList = A99CC54417034FA40070FF13 /* Build configuration list for PBXProject "RistrettoUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A99CC54017034FA40070FF13;
+			productRefGroup = A99CC54A17034FA40070FF13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A99CC54817034FA40070FF13 /* RistrettoUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A99CC54517034FA40070FF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99CC55E17034FC00070FF13 /* RistrettoTableViewCell.m in Sources */,
+				A99CC55F17034FC00070FF13 /* RistrettoTableViewController.m in Sources */,
+				A99CC56A17034FE20070FF13 /* UIColor+Ristretto.m in Sources */,
+				A99CC56B17034FE20070FF13 /* UIFont+Ristretto.m in Sources */,
+				A99CC56C17034FE20070FF13 /* UIImage+FWTBlock.m in Sources */,
+				A99CC56D17034FE20070FF13 /* UIImage+Ristretto.m in Sources */,
+				A99CC56E17034FE20070FF13 /* UIViewController+Ristretto.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A99CC55517034FA40070FF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A99CC55617034FA40070FF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A99CC55817034FA40070FF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RistrettoUI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RistrettoUI/RistrettoUI-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A99CC55917034FA40070FF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RistrettoUI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RistrettoUI/RistrettoUI-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A99CC54417034FA40070FF13 /* Build configuration list for PBXProject "RistrettoUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99CC55517034FA40070FF13 /* Debug */,
+				A99CC55617034FA40070FF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99CC55717034FA40070FF13 /* Build configuration list for PBXNativeTarget "RistrettoUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99CC55817034FA40070FF13 /* Debug */,
+				A99CC55917034FA40070FF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A99CC54117034FA40070FF13 /* Project object */;
+}
