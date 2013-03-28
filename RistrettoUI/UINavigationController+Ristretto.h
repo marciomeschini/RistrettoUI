@@ -11,5 +11,6 @@
 @interface UINavigationController (Ristretto)
 
 + (id)Ristretto_navigationControllerWithRootViewController:(UIViewController *)viewController;
++ (id)Ristretto_navigationControllerWithRootViewController:(UIViewController *)viewController defaultHeaderEnabled:(BOOL)enabled;
 
 @end
