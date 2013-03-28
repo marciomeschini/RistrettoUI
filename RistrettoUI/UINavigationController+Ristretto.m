@@ -43,7 +43,7 @@
         UIView *headerView = [[[UIView alloc] initWithFrame:(CGRect){.0f, .0f, 240.0f, 200.0f}] autorelease];
         [(RistrettoTableViewController *)viewController setTableHeaderView:headerView insets:(UIEdgeInsets){58.0f, 40.0f, 45.0f, 40.0f}];
         
-        UIImageView *iconView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"icon_overlayview.png"]] autorelease];
+        UIImageView *iconView = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"icon_project.png"]] autorelease];
         iconView.center = CGPointMake(CGRectGetMidX(headerView.bounds), iconView.center.y);
         [headerView addSubview:iconView];
         
