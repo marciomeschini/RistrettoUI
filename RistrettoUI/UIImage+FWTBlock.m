@@ -24,7 +24,7 @@
 {
     UIGraphicsBeginImageContextWithOptions(size, opaque, scale);
     CGContextRef context = UIGraphicsGetCurrentContext();
-    block(context);
+    if (block) block(context);
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return image;

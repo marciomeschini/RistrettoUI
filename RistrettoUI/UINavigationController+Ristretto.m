@@ -11,6 +11,7 @@
 #import "UIFont+Ristretto.h"
 #import "UIColor+Ristretto.h"
 #import "RistrettoTableViewController.h"
+#import "UIImage+FWTBlock.h"
 
 @implementation UINavigationController (Ristretto)
 
@@ -55,6 +56,9 @@
         label.center = CGPointMake(CGRectGetMidX(headerView.bounds), CGRectGetHeight(headerView.bounds)-CGRectGetHeight(label.bounds)*.5f);
         [headerView addSubview:label];
     }
+    
+    UIImage *emptyImage = [UIImage fwt_imageWithSize:(CGSize){1.0f, 1.0f} block:NULL];
+    [nc.toolbar setBackgroundImage:emptyImage forToolbarPosition:UIToolbarPositionAny barMetrics:UIBarMetricsDefault];
     
     return nc;
 }
